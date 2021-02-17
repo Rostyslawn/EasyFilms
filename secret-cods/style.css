@@ -1,0 +1,29 @@
+* {
+	font-size: 18px;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	background: black;
+	color: white;
+}
+
+.nav {
+	width: 99%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.content input, button {
+	color: black;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 50%);
+}
+
+.content button {
+	top: 55%;
+}

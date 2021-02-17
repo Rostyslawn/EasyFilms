@@ -1,0 +1,40 @@
+* {
+	font-size: 18px;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	background: black;
+	color: white;
+}
+
+.nav {
+	position: absolute;
+	width: 99%;
+	display: flex;
+	justify-content: space-around;
+}
+
+img {
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 250px;
+	height: 300px;
+}
+
+.rating-film {
+	top: 3%;
+	position: absolute;
+	font-size: 35px;
+	color: red;
+	width: auto;
+}
+
+iframe {
+	top: 150px;
+	position: absolute; 
+	display: flex; 
+	justify-content: space-between; 
+	margin: 0 auto; 
+	text-align: center; 
+	width: 100%;
+}
